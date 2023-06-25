@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="fav.png">
+    <title>Staticite</title>
+</head>
+
+<body>
+    <div class="flex flex-col">
+        <nav class="flex flex-row bg-yellow-400 p-2 items-center">
+            <i id="openel" class="fa-solid fa-bars cursor-pointer "></i>
+            <p class="px-1">Staticite</p>
+        </nav>
+        <div class="flex flex-row flex-grow">
+            <div id="navigate" class="bg-black absolute left-0 top-10 bottom-0 overflow-x-hidden">
+                <div class="flex flex-row justify-end px-2 py-2">
+                    <i id="closeel" class="fa-solid fa-xmark cursor-pointer" style="color:white"></i>
+                </div>
+                <ul class="p-2 flex flex-col m-2 gap-y-5 text-white ">
+                    <li class=" hover:border-1 hover:bg-blue-400 cursor-pointer p-2"><a href="#home">Home</a></li>
+                    <li class=" hover:border-1 hover:bg-blue-400 cursor-pointer p-2"><a href="#contact">Contact</a></li>
+                    <li class=" hover:border-1 hover:bg-blue-400 cursor-pointer p-2"><a
+                            href="#information">Information</a></li>
+                    <li class=" hover:border-1 hover:bg-blue-400 cursor-pointer p-2"><a href="#guide">Guide</a></li>
+                </ul>
+            </div>
+            <div id="main" class="flex flex-col bg-gray-400 ml-28 pl-2">
+                <section id="home">
+
+                </section>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
