@@ -17,21 +17,37 @@
             <p class="px-1">Staticite</p>
         </nav>
         <div class="flex flex-row flex-grow">
-            <div id="navigate" class="bg-black absolute left-0 top-10 bottom-0 overflow-x-hidden">
+            <div id="navigate" class="bg-black sticky left-0 top-10 bottom-0 overflow-x-hidden">
                 <div class="flex flex-row justify-end px-2 py-2">
                     <i id="closeel" class="fa-solid fa-xmark cursor-pointer" style="color:white"></i>
                 </div>
-                <ul class="p-2 flex flex-col m-2 gap-y-5 text-white ">
-                    <li class=" hover:border-1 hover:bg-blue-400 cursor-pointer p-2"><a href="#home">Home</a></li>
-                    <li class=" hover:border-1 hover:bg-blue-400 cursor-pointer p-2"><a href="#contact">Contact</a></li>
-                    <li class=" hover:border-1 hover:bg-blue-400 cursor-pointer p-2"><a
-                            href="#information">Information</a></li>
-                    <li class=" hover:border-1 hover:bg-blue-400 cursor-pointer p-2"><a href="#guide">Guide</a></li>
+                <ul class="p-2 flex flex-col m-2 gap-y-20 text-white ">
+                    <div class="flex flex-row items-center"><i class="fa-solid fa-house" style="color: #b5b5b5;"></i>
+                        <li class=" hover:border-1 hover:bg-blue-400 cursor-pointer p-2"><a href="#home">Home</a></li>
+                    </div>
+                    <div class="flex flex-row items-center"><i class="fa-solid fa-address-book" style="color: #9fa0a3;"></i></i>
+                        <li class=" hover:border-1 hover:bg-blue-400 cursor-pointer p-2"><a href="#contact">Contact</a></li>
+                    </div>
+                    <div class="flex flex-row items-center"><i class="fa-solid fa-circle-info" style="color: #9fa0a3;"></i>
+                        <li class=" hover:border-1 hover:bg-blue-400 cursor-pointer p-2"><a href="#info">Info</a></li>
+                    </div>
+                    <div class="flex flex-row items-center"><i class="fa-solid fa-hands-holding-child" style="color: #8a8e93;"></i>
+                        <li class=" hover:border-1 hover:bg-blue-400 cursor-pointer p-2"><a href="#guide">Guide</a></li>
+                    </div>
                 </ul>
             </div>
-            <div id="main" class="flex flex-col bg-gray-400 ml-28 pl-2">
+            <div id="main" class="flex flex-col space-y-64 ml-28 pl-2 pt-2">
                 <section id="home">
-
+                    <p class="text-3xl">Home </p>
+                </section>
+                <section id="contact">
+                    <p class="text-3xl">contact </p>
+                </section>
+                <section id="information">
+                    <p class="text-3xl">info </p>
+                </section>
+                <section id="guide">
+                    <p class="text-3xl">Guide </p>
                 </section>
             </div>
         </div>
